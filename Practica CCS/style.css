@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:mi_tipo;
+    src: url(CSS/angostur.ttf);
+}
+
+body{
+    font-family:mi_tipo;
+    margin: 15px;
+    padding: 0;
+}
+
+.Heder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    
+}
+
+.Heder a{
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.Link {
+    color: #6F7D95;
+    font-weight: 200;
+}
+
+.Logotipo{
+color: #3858D6;
+font-size: x-large;
+font-weight: bolder;
+}
+
+.HoaxBtn{
+    background-color: #3858D6;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.bloque_1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.muchacha-jeringa{
+    width: 50%;
+}
+
+.pelea{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+.iconos-dorados{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}    
+
+.Shedule{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}    
+
+.tres_col_agenda{
+    position:flex;
+    flex-direction: end;
+}
