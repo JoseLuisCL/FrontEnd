@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            display: flex;
+            flex-flow: row nowrap;
+            height: 60px;
+            align-items: center;
+        }
+            .logo{
+                flex: 1 1 auto;
+            }
+                .logo a{
+                    color: #2848C6;
+                    font-size: 30px;
+                    font-weight: 900;
+                }
+            .nav{
+                flex: 5 1 auto;
+                margin-left: 300px;
+            }
+                .nav a{
+                    color: #6F7D94;
+                    font-size: 18px;
+                    padding: 0 10px;
+                }
+            .boton_hoax{
+                flex: 1 1 auto;
+            }
+                .boton_hoax a{
+                    font-size: 18px;
+                    color: white;
+                    background-color: #2848C6;
+                    padding: 25px;
+                }
+    .seccion_1{
+        display: flex;
+    }
+        .textos_1{
+            flex: 1 1 auto;
+        }
+            .texto_1 h1{
+                font-size: 60px;
+                color: #1F3E72;
+            }
+            .texto_1 p{
+                font-size: 25px;
+                color: #6D7B93;
+            }
+        .aside_1{
+            flex: 1 1 auto;
+            width: 2000px;
+        }
+                .imagen1 img{
+                    width: 100%;
+                }
+            .texto_iconos{
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                margin-left: 80px;
+            }
+                .texto_iconos p{
+                    color: #47618B;
+                }
+            .encabezado_agenda{
+                margin-left: 80px ;
+            }
+                .encabezado_agenda p{
+                    color: #415B87;
+                    font-weight: 900;
+                }
+            .tabla_agenda{
+                display: flex;
+                background-color: white;
+                align-items: center;                
+            }
+                .Location{
+                    color: #717F96;
+                }
+                .Jakarta{
+                    color: #254376;
+                    font-weight: bold;
+                }
+                .Date{
+                    color: #717F96;
+                }
+                .July{
+                    color: #254376;
+                    font-weight: bold;
+                }
+                .VaccineType{
+                    color: #717F96;
+                }
+                .Moderna{
+                    color: #254376;
+                    font-weight: bold;
+                }
+                
+                .boton_agenda p{
+                    background-color: #2848C6;
+                    color: white;
+                    padding: 10px;
+                }
+    .imagen_farma{
+        display: flex;
+    }          
+        .imagen_farma img{
+            flex: 1 1 auto;
+        }
+
+    .seccion_2{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+        .textos_2{
+            height: 350px;
+            width: 710px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 35px;
+        }
+            .textos_2 h2{
+                font-size: 35px;
+                color: #1F3E72;
+            }
+            .textos_2 p{
+                font-size: 25px;
+                color: #6D7B93;
+            }
+        .recuadros{
+            display: flex;
+            height: 350px;
+            justify-content: space-around;
+            padding: 5px;
+        }
+            .recuadros h3{
+                color: #224174;
+            }
+            .recuadros p{
+                color: #748299;
+            }
+            .iconos_recuadros{
+                font-size: 40px;
+                color: #3050CE;
+            }
+            .minimize{
+                width: 340px;
+                border: 1px solid #717F96;
+            }
+            .forming{
+                width: 340px;
+                border: 1px solid #717F96;
+            }
+            .protectic{
+                width: 340px;
+                border: 1px solid #717F96;
+            }
+            .creating{
+                width: 340px;
+                border: 1px solid #717F96;
+            }
+
+    .seccion_3{
+        display: flex;
+        margin-top: 150px;
+    }
+        .aside_2{
+            width: 720px;
+        }
+            .Informacion_texto h2{
+                font-size: 35px;
+                color: #1F3E72;
+            }
+            .Informacion_texto p{
+                font-size: 25px;
+                color: #6D7B93;
+            }
+        .columna{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            }
+            .avoid{
+                display: flex;
+                color: #224174
+            }
+            .avoid_strees{
+                display: flex;
+                color: #224174
+            }
+                .Txt_avoid_stress p{
+                    justify-content: center;
+                    align-items: center;
+                    color: #717F96;
+                }
+            .eat{
+                display: flex;
+                color: #224174
+            }
+            .get{
+                display: flex;
+                color: #224174
+            }
+            .exercise{
+                display: flex;
+                color: #224174
+            }
+    .seccion_4{
+        display: flex;
+        margin-top: 200px;
+    }
+        .Seccion_izq_bloque_4{
+            display: flex;
+            flex-direction: column;
+            width: 550px;
+            flex: 1 0 auto;
+        }
+        .aside_3{
+            width:550px;
+            align-items: center;
+            justify-content: center;
+            flex: 1 0 auto;
+        }
+        .recuadros_2{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px;
+            align-items: center;
+            width: 450px;
+            margin-top: 100px;
+            margin-left: 150px;
+        }
+        .call{
+            border: 1px solid #717F96;
+            width:171.09px
+        }
+        .chat{
+            border: 1px solid #717F96;
+            width:163px
+        }
+        .videocall{
+            border: 1px solid #717F96;
+        }
+        .messaje{
+            border: 1px solid #717F96;
+        }
+            .boton_barbon_1{
+                background-color: #F1F5FF;
+                color: #2E4DC8;
+            }
+            .boton_barbon_2{
+                background-color: #F1F5FF;
+                color: #2E4DC8;
+            }
+            .boton_barbon_3{
+                background-color: #F1F5FF;
+                color: #2E4DC8;
+            }
+            .boton_barbon_4{
+                background-color: #F1F5FF;
+                color: #2E4DC8;
+            }
+            .iconos_barbon{
+                font-size: 35px;
+                color: #2C4CCA;
+            }
+        .textos_4 h2{
+            font-size: 35px;
+            color: #1F3E72;
+        }
+        .textos_4 p{
+            margin-top: 30px;
+            font-size: 25px;
+            color: #6D7B93;
+        }
+    
+    .footer{
+        background-color: #EEF3FF;
+    }
+    .footer p{
+        color: #717F97;
+    }
+    .footer h3{
+        color: #203E72;
+    }
+    .Columnas_foter{
+        display: flex;
+        margin-top: 100px;
+    }
+        .columna_foter_1{
+            flex: 1 0 auto;
+        }
+    .copy{
+        display: flex;
+        margin-top: 200px;
+        justify-content: space-around;
+    }
